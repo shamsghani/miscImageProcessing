@@ -1,80 +1,62 @@
-## miscImageProcessing
+# Miscellaneous Image Processing Toolkit
 
-Welcome to **miscImageProcessing** - a collection of image-processing algorithms that are hanging out here, sipping virtual coffee, and occasionally doing a bit of pixel tinkering. This repository is like that cozy corner of your virtual world where code gathers dust, but fear not, it's not abandoned – just marinating slowly, like a fine algorithmic stew.
+![Project Status](https://img.shields.io/badge/status-inactive-red.svg)
+![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)
+![Image Processing](https://img.shields.io/badge/image--processing-true-blue.svg)
+![Pillow](https://img.shields.io/badge/pillow-8.4.0-blue.svg)
+![Python](https://img.shields.io/badge/python-3.8%20%7C%203.9-blue.svg)
 
-**Disclaimer:** This is not your everyday, run-of-the-mill, hyperactive open-source project. No, no. We like to take it easy here. The functions here reside in a file charmingly named `test.ipynb`, because, well, we believe in giving algorithms a comfy home to relax and ponder about their pixelated existence.
 
-### Functions
+Welcome to the Miscellaneous Image Processing Toolkit! This repository contains a collection of miscellaneous methods and experiments related to image processing. Please note that this is a side project and not actively maintained. The purpose of this toolkit is to experiment with various image processing techniques and share insights with the community. Feel free to explore the provided Jupyter Notebook (`test.ipynb`) to see the implemented methods.
 
-Here's an overview of some of the functions available in this codebase:
+## Overview
 
-#### Load Images
+This repository contains a Jupyter Notebook (`test.ipynb`) that showcases the following image processing techniques:
 
-Load images from a directory to begin your image-processing journey.
+1. **Convolution Function**: A method for applying convolution to an image using a given kernel.
 
-#### Sobel Filter and Non-Maximal Suppression
+2. **Image Loading**: A method to load images from a specified directory and convert them into NumPy arrays.
 
-Apply the Sobel filter and subsequent non-maximal suppression for edge detection.
+3. **Sobel Edge Detection**: Implementation of the Sobel edge detection algorithm along with non-maximal suppression (NMS) for enhancing detected edges.
 
-#### Color Representation of Gradient
+4. **Canny Edge Detection**: Utilizing the Canny edge detection algorithm to identify edges in an image.
 
-Visualize gradients by representing them using color mapping.
+5. **Morphological Operations**: Applying morphological closing and image filling to enhance edge detection results.
 
-#### Threshold Map for Highlight Enhancement and Shadow Darkening
+6. **Cluster Labeling**: Labeling connected components in a binary image and removing small clusters.
 
-Generate a threshold map that boosts highlights and darkens shadows, creating a binary image with enhanced contrasts.
+7. **Background Removal**: Demonstrating how the pipeline can be used to remove backgrounds from product images.
 
-#### Canny Edge Detection
+8. **Cropping and Resizing**: Identifying non-white regions and cropping/resizing the image accordingly.
 
-Utilize the Canny edge detection algorithm to identify edges within images.
+9. **Color Adjustment**: Attempting to adjust colors based on a specified threshold.
 
-#### Cluster Detection and Removal
+10. **Saving Results**: Saving the processed images to disk.
 
-Detect clusters within an image and implement strategies to remove them as needed.
+## Usage
 
-#### Recropping for White Space Removal
+To use the provided methods and experiments, simply open the Jupyter Notebook `test.ipynb`. Execute each cell to see the results of different image processing techniques.
 
-Recrop images to eliminate excessive white spaces and improve composition.
+Please note that this project is not actively maintained, and some code segments might be incomplete or experimental. Feel free to explore, experiment, and adapt the methods for your own use.
 
-#### Image Cutout Using Masks
+## Contributing
 
-Create image cutouts based on specified masks to extract specific regions of interest.
+Contributions are welcome! If you'd like to contribute to the project, here's how you can do it:
 
-#### Selective Color Brightening
+1. **Fork the Repository**: Click the "Fork" button in the upper right corner of this repository to create your own copy.
 
-Enhance the brightness of pixels exceeding a specified threshold, selectively boosting colors.
+2. **Make Changes**: Make the desired changes or additions to the codebase.
 
-### Project Activity
+3. **Submit a Pull Request**: Once your changes are ready, submit a pull request to the main repository. Provide a clear description of your changes and why they are valuable.
 
-Is this project active, you ask? Well, let's say it's taking a sabbatical in the world of bits and bytes. Updates happen on their own sweet time, like a turtle in a digital marathon. Feel free to fork, tinker, or even toss in your own algorithmic experiments. Just remember, patience is key – in this repository, we measure progress in leisurely coffee spoons.
+## Disclaimer
 
-### How to Join the Chill Zone
+This project was created as a personal exploration of image processing techniques and may contain experimental or incomplete code. Use the methods provided at your own discretion.
 
-1. Clone this repository to your digital playground.
-   ```bash
-   git clone https://github.com/your-username/miscImageProcessing.git
-   ```
+## License
 
-2. Slide into the cozy `test.ipynb` file – that's where the magic (code) happens.
-
-3. Explore, experiment, and extend these functions at your own pace. Remember, no rush, we're on island time here.
-
-### Contributions
-
-Interested in reviving this virtual coffee club? Contributions are welcome! Here's how:
-
-1. Fork the repository and create a new branch – give it a whimsical name.
-
-2. Shake the dust off those algorithms, add new ones, or sprinkle some debugging magic.
-
-3. Commit your changes and push them like sending a message in a bottle across the digital seas.
-
-4. Open a pull request – let's chat about your pixelated sorcery.
-
-### License
-
-This project enjoys a license that's as laid-back as its code. Feel free to explore, experiment, and enjoy the virtual ambiance. Just remember, while you're welcome to hang around and make yourself at home, commercial endeavors might need a separate invitation.
+This project is provided under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
 ---
 
-**Note:** This repository is akin to a digital secret garden. It's not bustling with activity, but it's alive and evolving in its own leisurely rhythm. So go ahead, explore, experiment, and let your algorithms stretch their virtual legs.
+*Note: The content and code provided in this repository are for educational and experimental purposes only. The project may not be actively maintained or updated.*
